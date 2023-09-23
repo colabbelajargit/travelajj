@@ -26,3 +26,6 @@ body {
   color: var(--yellow);
   font-weight: bold;
 }
+.btn-warning {
+  background-color: #ffc265;
+}
