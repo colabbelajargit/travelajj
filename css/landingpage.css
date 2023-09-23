@@ -1,6 +1,28 @@
-:root{
-
+:root {
+  --primary: #1da599;
+  --font: #454545;
+  --yellow: #ffc265;
+  --fonthaj: #4a4a4a;
+  --fontnav: #525252;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
 .imglogo {
-  width: 100px;
+  width: 143px;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+.navbar-nav .nav-item .nav-link {
+  color: var(--fontnav);
+}
+.navbar-nav .nav-item .nav-link.active {
+  color: var(--yellow);
+  font-weight: bold;
 }
