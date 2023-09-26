@@ -4,6 +4,8 @@
   --yellow: #ffc265;
   --fonthaj: #4a4a4a;
   --fontnav: #525252;
+  --fontbutton: #3f3f3f;
+  --colorcontainer: #c1fffa;
 }
 
 body {
@@ -26,6 +28,23 @@ body {
   color: var(--yellow);
   font-weight: bold;
 }
-.btn-warning {
+.btncontack {
   background-color: #ffc265;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-color: var(--fontbutton);
+}
+.main-title {
+  font-size: 54px;
+}
+.main-content {
+  font-size: 24px;
+}
+.col-lg-6 .hero-img {
+  width: 80%;
+}
+.hero-contener {
+  background-color: var(--colorcontainer);
 }
