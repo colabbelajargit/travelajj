@@ -45,6 +45,10 @@ body {
 .col-lg-6 .hero-img {
   width: 80%;
 }
-.hero-contener {
+.hero-container {
   background-color: var(--colorcontainer);
+  border-radius: 20px;
+  padding: 4px;
+  width: 20%;
+  color: var(--primary);
 }
