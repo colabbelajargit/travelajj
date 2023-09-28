@@ -84,3 +84,9 @@ body {
   font-weight: semibold;
   color: var(--colorfontcontent);
 }
+
+.flight {
+  display: inline-block;
+  vertical-align: top; /* Untuk menempatkan elemen secara vertikal ke atas */
+  margin-right: 20px; /* Untuk memberikan jarak antara elemen-elemen */
+}
