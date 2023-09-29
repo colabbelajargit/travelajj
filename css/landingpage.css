@@ -7,6 +7,7 @@
   --fontbutton: #3f3f3f;
   --colorcontainer: #c1fffa;
   --colorfontcontent: #454545;
+  --colorconte1: #f3fffe;
 }
 
 body {
@@ -34,7 +35,7 @@ body {
   border: none;
   border-radius: 5px;
   padding: 9px;
-  margin: 10px;
+  margin: 15px;
   font-size: 16px;
   color: var(--fontbutton);
   tex-decoration: none;
@@ -73,6 +74,7 @@ body {
 
 .conten1 {
   margin-top: 120px;
+  background-color: var(--colorconte1);
 }
 
 .main-c1ontent1 {
@@ -91,4 +93,22 @@ body {
   display: inline-block;
   vertical-align: top; /* Untuk menempatkan elemen secara vertikal ke atas */
   margin-right: 20px; /* Untuk memberikan jarak antara elemen-elemen */
+}
+.btncontackus {
+  border: 2px solid;
+  padding: 9px;
+  margin: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+.btncontackus:hover {
+  background-color: var(--yellow);
+  color: var(--fontbutton);
+  border: 1px solid var(--yellow);
+}
+.alnasr {
+  font-size: 54px;
+  font-weight: bold;
 }
